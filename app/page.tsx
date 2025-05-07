@@ -4,11 +4,11 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
-          src="/profile.png"
+          src="/axel.jpg"
           alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5  "
           unoptimized
           width={160}
           height={160}
@@ -16,49 +16,47 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium">
-        Portfolio template!
+        Hi, I'm Axel Moran Caballero
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          A software engineer with a passion for building web applications and
+          exploring new technologies. 
         </p>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
+        Over the past few years, I’ve completed internships in full-stack development, QA automation, and performance optimization at companies like BetterSleep, Actalent, and VuWall.
+         I’ve worked with technologies like React, TypeScript, Firebase, Docker, and Spring Boot to ship impactful features, improve system reliability and {""}
           <a
             target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
+            href="https://www.linkedin.com/in/axel-moran-caballero-9324ab263/"
           >
             more
           </a>
           .
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          I am a third-year undergraduate at Concordia University studying Computer Science.
         </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+        <h2 className="mt-8 text-xl font-semibold">Skills</h2>
+        <ul className="list-disc list-inside">
+            <li className="inline text-sm">Python</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">JavaScript</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">TypeScript</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">React</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">Java</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">C</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">C++</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">NodeJS</li>
+            <span className="mx-2 text-sm">|</span>
+            <li className="inline text-sm">SQL</li>
+        </ul>
       </div>
     </section>
   );
