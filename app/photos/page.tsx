@@ -16,10 +16,10 @@ export default function Photos() {
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/axel1.jpg", alt: "Roman columns" },
-          { src: "/photos/axel2.jpg", alt: "Big Ben" },
-          { src: "/photos/axel3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/axel4.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/axel.png", alt: "Axel" },
+          { src: "/photos/axel6.png", alt: "Axel" },
+          { src: "/photos/axel3.jpg", alt: "Axel" },
+          { src: "/photos/axel4.jpg", alt: "Axel" },
         ]}
       />
 
